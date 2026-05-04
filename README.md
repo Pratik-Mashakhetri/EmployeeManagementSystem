@@ -8,7 +8,8 @@ A full-stack Employee Management System to manage employee records, including ad
 - Add new employees  
 - View all employees  
 - Update employee details  
-- Delete employees  
+- Delete employees
+- Manage Leaves
 - MySQL database integration  
 
 ---
