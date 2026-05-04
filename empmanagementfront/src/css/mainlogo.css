@@ -1,0 +1,6 @@
+.navbar-brand img {
+  width: 65px;     /* control size */
+  height: 65px;
+  object-fit: cover;
+  border-radius: 60%; /* optional round logo */
+}

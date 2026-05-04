@@ -1,0 +1,137 @@
+.about-page {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* HERO */
+.about-hero {
+  height: 30vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 42px;
+}
+
+.about-hero p {
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+/* STORY */
+.about-story {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* FEATURES */
+.about-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.feature-box {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.feature-box:hover {
+  transform: translateY(-10px);
+}
+
+/* STATS */
+.about-stats {
+  display: flex;
+  justify-content: space-around;
+  background: #3498db;
+  color: white;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.about-stats div {
+  margin: 10px;
+  text-align: center;
+}
+
+/* TIMELINE */
+.about-timeline {
+  padding: 60px;
+  text-align: center;
+}
+
+.timeline {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.timeline-item {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+  transition: 0.3s;
+}
+
+.timeline-item:hover {
+  transform: scale(1.05);
+}
+
+/* TEAM */
+.about-team {
+  padding: 60px;
+  text-align: center;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  background: #ecf0f1;
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+}
+
+/* CTA */
+.about-cta {
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+.about-cta button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  background: white;
+  color: #dd2476;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
